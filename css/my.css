@@ -1,0 +1,125 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: #111;
+    background: #fff;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+        line-height: 32px;
+}
+
+h1 {
+        font-size: 28px;
+        text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+a {
+    color: #c00;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover, a:focus {
+    color: #666;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 900px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.myphoto {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    box-shadow: 0 2px 8px #20B2AA;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.social-icons li a {
+    font-size: 2rem;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0.2em;
+    padding: 12px;
+    border: none;
+    color: #fff;
+    border-radius: 100%;
+    background: #20B2AA;
+    overflow: hidden;
+    display: block;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px #20B2AA;
+}
+
+.social-icons li a:hover {
+    background: #666;
+}
+
+.slider {
+    box-shadow: 0 4px 12px #20B2AA;
+    border-radius: 20px;
+    width: 900px;
+    margin: 10px 0 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+.slider .slick-prev.slick-arrow {
+    width: 100px;
+    border-color: #20B2AA;
+    border-radius: 10px;
+    border-width: 1px;
+    position: absolute;
+    bottom: -60px;
+    left: 300px;
+}
+
+.slider .slick-next.slick-arrow {
+    width: 100px;
+    border-color: #20B2AA;
+    border-radius: 10px;
+    border-width: 1px;
+    position: absolute;
+    bottom: -60px;
+    right: 300px;
+}
